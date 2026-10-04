@@ -1,0 +1,22 @@
+# 비밀키 / 개인 데이터
+.env
+.kiwoom_orders.jsonl
+*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# 로컬 설정
+.claude/settings.local.json
+
+# 에디터 / OS
+.vscode/
+.idea/
+.DS_Store

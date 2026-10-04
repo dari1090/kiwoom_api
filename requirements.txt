@@ -1,0 +1,10 @@
+# Python 3.10 이상이 필요합니다 (mcp SDK 요구사항).
+# 3.8/3.9 에서는 mcp 설치가 "from versions: none" 으로 실패합니다.
+
+requests>=2.31.0
+
+# MCP 서버. 2.0은 대규모 리워크라 1.x 계열로 고정합니다.
+mcp>=1.28,<2
+
+# 테스트 (외부 HTTP 목킹 라이브러리는 쓰지 않습니다 - tests/conftest.py 참고)
+pytest>=8.0
